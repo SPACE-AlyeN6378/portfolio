@@ -1,0 +1,43 @@
+@font-face {
+    font-family: AcquireBold;
+    src: url(fonts/aquire-font/Aquire-BW0ox.otf);
+ }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    overflow-x: hidden;
+    background-color: black;
+    perspective: 1px;
+}
+
+.parallax {
+    /* Set up parallax background properties */
+    background-image: url('1313982.jpeg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust as needed */
+}
+  
+#title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: AcquireBold;
+    font-size: 5.5vw;
+    width: 62%;
+    background-color: rgba(23, 24, 57, 0.7);
+    padding: 30px 0;
+}
+
+.subtitle {
+    font-size: 1.6vw;
+    margin-top: 10px;
+    font-family: 'Orbitron';
+}
