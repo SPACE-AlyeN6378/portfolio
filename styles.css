@@ -68,10 +68,18 @@ body {
 
 
 /* Media queries for responsiveness */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     #title {
         width: 100%; /* Adjust font size for smaller screens */
-        font-size: 60px;
+        font-size: 100px;
+    }
+
+    .subtitle {
+        font-size: 33px;
+    }
+
+    .opening-text {
+        font-size: 30px;
     }
 }
 
