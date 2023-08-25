@@ -45,14 +45,6 @@ body {
     padding: 0px 30px;
 }
 
-.opening {
-    height: 50vh;
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 56%, rgba(0,0,113,1) 100%);
-    margin: 0;
-    padding: 0;
-}
-
 .opening-text {
     position: relative;
     left: 50%;
@@ -64,6 +56,16 @@ body {
     width: 90%;
     padding-top: 50px;
 }
+
+.opening {
+    height: 50vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 56%, rgba(0,0,113,1) 100%);
+    margin: 0;
+    padding: 0;
+}
+
+
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 768px) {
