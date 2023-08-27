@@ -70,7 +70,7 @@ body {
 /* Media queries for responsiveness */
 @media screen and (max-width: 1000px) {
     #title {
-        width: 100%; /* Adjust font size for smaller screens */
+        width: 100vh; /* Adjust font size for smaller screens */
         font-size: 100px;
     }
 
